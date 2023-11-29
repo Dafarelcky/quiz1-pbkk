@@ -45,6 +45,7 @@ namespace PhotoLab
         private ImageFileInfo persistedItem;
 
         public ObservableCollection<ImageFileInfo> Images { get; } = new ObservableCollection<ImageFileInfo>();
+        
 
         public MainPage()
         {
